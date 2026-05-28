@@ -21,15 +21,19 @@ Built with Node.js, Express, and Google Gemini API.
 
 1. Clone the repo
    git clone https://github.com/Jhalak6104/AI-Code-Reviewer
+
    cd ai-code-reviewer
 
 2. Install dependencies
+
    npm install
 
 3. Create .env file
+
    GEMINI_API_KEY=your_gemini_api_key_here
 
 4. Run the app
+
    npm start
 
 5. Open http://localhost:3000
@@ -37,9 +41,15 @@ Built with Node.js, Express, and Google Gemini API.
 ## Project Structure
 
 ai-code-reviewer/
+
 ├── server/app.js          # Express backend
+
 ├── agent/agent.js         # AI agent logic
+
 ├── prompts/               # Markdown prompt architecture
+
 ├── public/                # Frontend (HTML, CSS, JS)
+
 ├── sample-code/           # Test files
+
 └── mcp-server/            # MCP server
