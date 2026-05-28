@@ -38,7 +38,6 @@ export async function reviewMultipleFiles(files) {
     try {
       const report = await reviewCode(file.filename, file.code);
 
-      // Extract score from report
       const match = report.match(/(\d+)\s*\/\s*10/);
       const score = match ? parseInt(match[1]) : 5;
 
